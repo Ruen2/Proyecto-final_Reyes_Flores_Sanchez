@@ -170,7 +170,7 @@ Eres Noah. Has sido amigo de Zaí desde la primaria. Pero este semestre su madre
 
 Un día en el pasillo de la escuela, tras otra respuesta fría de su parte, la tensión estalla...
 
-¿QUÉ HACES?""")
+¿Qué haces?""")
     
     btn_opcion_a.config(text="A) Mantener la calma, tragarme mi orgullo y ofrecerle un abrazo en silencio.", 
                         command=lambda: procesar_decision(10, "Abrazo silencioso", camino_a))
@@ -189,7 +189,7 @@ Le ofreces un abrazo, pero Zaí te empuja levemente diciendo que no quiere compa
 
 Un sábado, estás en el súper con Zoe y te cruzas a Zaí demacrada. Al verte, llora y corre a su casa. La sigues hasta su puerta.
 
-¿QUÉ HACES?""")
+¿Qué haces?""")
     
     btn_opcion_a.config(text="A) Hablar con suavidad, pedirle perdón por haber ido con Zoe y explicarle tu miedo a perderla.", 
                         command=lambda: procesar_decision(20, "Disculpa por Zoe", camino_a_opcion_a))
@@ -204,7 +204,7 @@ def camino_a_opcion_a():
 
 Zaí se queda en silencio detrás de la puerta. Se nota que tus palabras la conmovieron, pero sigue teniendo miedo de abrirse contigo y lastimarte con su dolor. El silencio se vuelve prolongado...
 
-¿QUÉ HACES?""")
+¿Qué haces?""")
     
     btn_opcion_a.config(text="A) Insistir en entrar a su casa para no dejarla sola en ese estado.", 
                         command=lambda: procesar_decision(20, "Insistir en entrar", historia_central))
@@ -221,7 +221,7 @@ Le gritas que estás harto. Ella te grita que la dejes en paz. La relación se r
 
 Un sábado en el súper, te topas a Zaí demacrada. Sale corriendo y la persigues hasta su casa. En la puerta la tensión es máxima...
 
-¿QUÉ HACES?""")
+¿Qué haces?""")
     
     btn_opcion_a.config(text="A) Exigirle una explicación a gritos por haber huido.", 
                         command=lambda: procesar_decision(-20, "Exigir explicación", historia_central))
@@ -237,9 +237,9 @@ def historia_central():
 La discusión o plática en su puerta aclara las cosas a medias, pero ella te dice que la amistad se rompió y entra a su casa. Se gradúan de la preparatoria sin volverse a hablar. El tiempo pasa...
 
 ⏳ CINCO AÑOS DESPUÉS...
-Estás en una cafetería de la estación de tren y ahí está Zaí, sentada junto a la ventana. Se ve más madura. Ella levanta la mirada y sus ojos se cruzan con los yours de golpe.
+Estás en una cafetería de la estación de tren y ahí está Zaí, sentada junto a la ventana. Se ve más madura. Ella levanta la mirada y sus ojos se cruzan con los tuyos de golpe.
 
-¿QUÉ HACES?""")
+¿Qué haces?""")
     
     btn_opcion_a.config(text="A) Caminar hacia su mesa con una sonrisa nostálgica y preguntarle si puedes sentarte.", 
                         command=lambda: procesar_decision(10, "Acercarse amable", historia_final))
@@ -254,7 +254,7 @@ def historia_final():
 
 Están frente a frente en la cafetería (o te quedaste pensando afuera si huiste). El ambiente está lleno de recuerdos de la adolescencia y cuentas pendientes. Es el momento de decidir cómo vas a actuar en esta interacción crucial.
 
-¿CÓMO TE COMPORTAS?""")
+¿Cómo te comportas?""")
     
     btn_opcion_a.config(text="A) Hablar con total madurez, admitir tus errores y pedirle una disculpa sincera.", 
                         command=lambda: procesar_decision(10, "Madurez/Disculpa", calcular_final))
